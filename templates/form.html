@@ -1,0 +1,42 @@
+<form>
+  <fieldset>
+    <legend>{{ textButton }}</legend>
+
+    <div class="row">
+	  <div class="control-group col-lg-3">
+		<label class="control-label"  for="username">Name</label>
+		 <div class="controls">
+			<input type="text" id="name" name="name" placeholder="" class="form-control" ng-model="user.name" required>
+		 </div>
+	 </div>
+    </div>
+
+    <div class="row">
+	 <div class="control-group col-lg-3">
+		<label class="control-label"  for="username">Age</label>
+		 <div class="controls">
+			<input type="nubmer" id="age" name="age" placeholder="" class="form-control" ng-model="user.age" required>
+		 </div>
+	 </div>
+	</div>
+	<div class="row">
+	<div class="control-group col-lg-3">
+		<label class="control-label"  for="username">Profesion</label>
+		 <div class="controls">
+			<input type="text" id="profession" name="profession" placeholder="" class="form-control" ng-model="user.profesion" required>
+		 </div>
+	 </div>
+	</div>
+	<div class="row">
+	 <div class="control-group col-lg-3">
+		<label class="control-label"  for="username">Web</label>
+		 <div class="controls">
+			<input type="url" id="web" name="web" placeholder="" class="form-control" ng-model="user.web" required>
+		 </div>
+	 </div>
+    </div>
+	<br/>
+    <button type="submit"  class="btn btn-success" type="button">{{ textButton }}</button>
+     <a href="#/index" class="btn btn-default">Return home</a>
+  </fieldset>
+</form>
